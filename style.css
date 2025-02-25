@@ -34,7 +34,7 @@ html {
     height: 100%;
     background-color: #d8dde2;
     /* Haut-gauche et bas droite sont 60rem et les autres 2rem  */
-    border-radius: 600px, 20px;
+    border-radius: 60rem 2rem;
 }
 
 .contact > div {
@@ -91,7 +91,7 @@ textarea {
     width: 30rem;
     height: 20rem;
     background-color: #5f9ea0;
-    border-radius: 100rem, 100rem, 20rem, 20rem;
+    border-radius: 100rem 100rem 20rem 20rem;
     /* De ce que je comprends : Position relative indique que si on suit l'organisation par défaut de la page, il serait en "Offset" par rapport à ça */
     position: relative;
     animation: telephoneAnim 4s infinite reverse; 
@@ -139,7 +139,7 @@ textarea {
     /* Position absolute signifie que peu importe comment est structuré la fenêtre cet objet sera toujours à cette position. */
     position: absolute;
     bottom: 0;
-    border-radius: 5rem, 5rem, 0, 0;
+    border-radius: 5rem 5rem 0 0;
     background-color: #5f9ea0;
 }
 .telephone::after {
