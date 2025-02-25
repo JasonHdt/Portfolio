@@ -14,7 +14,7 @@ html {
 
 .center {
     /* Fait intéressant : Le .center est appliqué à <Div class= content center> donc on peut assigner plusieurs noms à la même classe */
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
